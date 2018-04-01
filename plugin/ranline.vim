@@ -4,4 +4,4 @@ function! LineJump()
     call cursor(s:ranLine[0], 0)
 endfunction
 
-command LineJump call LineJump()
+command! LineJump call LineJump()
